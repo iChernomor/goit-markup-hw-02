@@ -1,0 +1,191 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --font-header-footer: #2f303a;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+/* основной цвет текста #212121 */
+/* вторичный цвет #757575 */
+/* лого 2196F3 верх 000000 низ FFFFFF */
+/* фон хедер и футор 2F303A */
+/* шапка FFFFFF */
+/* осн фон E5E5E5 */
+/* вторичный фон F5F4FA */
+
+/* убрал точки */
+.about-title,
+.site-nav,
+.site-contact,
+.footer,
+.card,
+.advantage,
+.team,
+.site-contact,
+.foto {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/* Лого */
+.logo-blue {
+  color: #2196f3;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-black {
+  color: #000000;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-white {
+  color: #ffffff;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo :hover,
+.logo :focus {
+  color: #2196f3;
+}
+.link :hover,
+.link :focus {
+  color: #9e1313;
+}
+
+/* Site nav */
+.site-nav {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-nav :hover,   /*подсветка при наведении*/
+.site-nav :focus {
+  color: #b90e0e;
+}
+.site-contact {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+/* Offer */
+.offer-title {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+/* Button */
+.button {
+  color: #ffffff;
+  background-color: #2196f3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+/* About */
+.about-title {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+/* Advantage / преимущества */
+.advantage-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.advantage-description {
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* Team */
+.team-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.team-name {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.team-position {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* Footer */
+.footer-address {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+}
+.footer-contact {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+}
+
+/* Portfolio CSS */
+.menu {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+.card-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.card-description {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.88;
+}
