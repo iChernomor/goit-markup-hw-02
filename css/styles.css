@@ -76,6 +76,9 @@ body {
 }
 
 /* Site nav */
+.text-black {
+  color: var(--primary-text-color);
+}
 .site-nav {
   color: var(--primary-text-color);
   font-weight: 500;
